@@ -1,0 +1,36 @@
+C:\Users\Bruno\Desktop\Teste trab\Teste trab\bin\Debug\Teste trab.exe.config
+C:\Users\Bruno\Desktop\Teste trab\Teste trab\bin\Debug\Teste trab.exe
+C:\Users\Bruno\Desktop\Teste trab\Teste trab\bin\Debug\Teste trab.pdb
+C:\Users\Bruno\Desktop\Teste trab\Teste trab\obj\Debug\Teste trab.csprojAssemblyReference.cache
+C:\Users\Bruno\Desktop\Teste trab\Teste trab\obj\Debug\Teste_trab.CadastroCliente.resources
+C:\Users\Bruno\Desktop\Teste trab\Teste trab\obj\Debug\Teste_trab.CadastroFornecedor.resources
+C:\Users\Bruno\Desktop\Teste trab\Teste trab\obj\Debug\Teste_trab.CadastroProduto.resources
+C:\Users\Bruno\Desktop\Teste trab\Teste trab\obj\Debug\Teste_trab.PesquisaCliente.resources
+C:\Users\Bruno\Desktop\Teste trab\Teste trab\obj\Debug\Teste_trab.PesquisaFornecedor.resources
+C:\Users\Bruno\Desktop\Teste trab\Teste trab\obj\Debug\Teste_trab.PesquisaProduto.resources
+C:\Users\Bruno\Desktop\Teste trab\Teste trab\obj\Debug\Teste_trab.Properties.Resources.resources
+C:\Users\Bruno\Desktop\Teste trab\Teste trab\obj\Debug\Teste_trab.frCadPadrao.resources
+C:\Users\Bruno\Desktop\Teste trab\Teste trab\obj\Debug\Teste trab.csproj.GenerateResource.cache
+C:\Users\Bruno\Desktop\Teste trab\Teste trab\obj\Debug\Teste trab.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\Desktop\Teste trab\Teste trab\obj\Debug\Teste trab.exe
+C:\Users\Bruno\Desktop\Teste trab\Teste trab\obj\Debug\Teste trab.pdb
+C:\Users\Bruno\Desktop\Teste trab\Teste trab\obj\Debug\Teste_trab.frTelaPrincipal.resources
+C:\Users\jonat\Downloads\Teste trab-20181124T142513Z-001\Teste trab\Teste trab\bin\Debug\Teste trab.exe.config
+C:\Users\jonat\Downloads\Teste trab-20181124T142513Z-001\Teste trab\Teste trab\bin\Debug\Teste trab.exe
+C:\Users\jonat\Downloads\Teste trab-20181124T142513Z-001\Teste trab\Teste trab\bin\Debug\Teste trab.pdb
+C:\Users\jonat\Downloads\Teste trab-20181124T142513Z-001\Teste trab\Teste trab\obj\Debug\Teste trab.csprojAssemblyReference.cache
+C:\Users\jonat\Downloads\Teste trab-20181124T142513Z-001\Teste trab\Teste trab\obj\Debug\Teste_trab.CadastroCliente.resources
+C:\Users\jonat\Downloads\Teste trab-20181124T142513Z-001\Teste trab\Teste trab\obj\Debug\Teste_trab.CadastroFornecedor.resources
+C:\Users\jonat\Downloads\Teste trab-20181124T142513Z-001\Teste trab\Teste trab\obj\Debug\Teste_trab.CadastroProduto.resources
+C:\Users\jonat\Downloads\Teste trab-20181124T142513Z-001\Teste trab\Teste trab\obj\Debug\Teste_trab.frTelaPrincipal.resources
+C:\Users\jonat\Downloads\Teste trab-20181124T142513Z-001\Teste trab\Teste trab\obj\Debug\Teste_trab.PesquisaCliente.resources
+C:\Users\jonat\Downloads\Teste trab-20181124T142513Z-001\Teste trab\Teste trab\obj\Debug\Teste_trab.PesquisaFornecedor.resources
+C:\Users\jonat\Downloads\Teste trab-20181124T142513Z-001\Teste trab\Teste trab\obj\Debug\Teste_trab.PesquisaProduto.resources
+C:\Users\jonat\Downloads\Teste trab-20181124T142513Z-001\Teste trab\Teste trab\obj\Debug\Teste_trab.Properties.Resources.resources
+C:\Users\jonat\Downloads\Teste trab-20181124T142513Z-001\Teste trab\Teste trab\obj\Debug\Teste_trab.frCadPadrao.resources
+C:\Users\jonat\Downloads\Teste trab-20181124T142513Z-001\Teste trab\Teste trab\obj\Debug\Teste trab.csproj.GenerateResource.cache
+C:\Users\jonat\Downloads\Teste trab-20181124T142513Z-001\Teste trab\Teste trab\obj\Debug\Teste trab.csproj.CoreCompileInputs.cache
+C:\Users\jonat\Downloads\Teste trab-20181124T142513Z-001\Teste trab\Teste trab\obj\Debug\Teste trab.exe
+C:\Users\jonat\Downloads\Teste trab-20181124T142513Z-001\Teste trab\Teste trab\obj\Debug\Teste trab.pdb
+C:\Users\jonat\Downloads\Teste trab-20181124T142513Z-001\Teste trab\Teste trab\obj\Debug\Teste_trab.PesquisaCidade.resources
+C:\Users\jonat\Downloads\Teste trab-20181124T142513Z-001\Teste trab\Teste trab\obj\Debug\Teste_trab.frVenda.resources
