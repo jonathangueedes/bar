@@ -40,5 +40,28 @@ namespace Teste_trab
             CadastroProduto tela = new CadastroProduto();
             tela.ShowDialog();
         }
+
+        private void adicionarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frVenda tela = new frVenda();
+            tela.ShowDialog();
+        }
+
+        private void manualToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sobre tela = new Sobre();
+            tela.ShowDialog();
+        }
+
+        private void consultaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PesquisaVenda pv = new PesquisaVenda();
+            pv.ShowDialog();
+        }
     }
 }

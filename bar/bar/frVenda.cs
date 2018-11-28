@@ -18,7 +18,8 @@ namespace Teste_trab
         BindingList<ItemVendaVO> carrinho = new BindingList<ItemVendaVO>();
         ProdutoDAO p;
         VendaDAO c;
-        int idvenda;
+        public int idvenda;
+        
         public frVenda()
         {
             p = new ProdutoDAO();
@@ -42,14 +43,16 @@ namespace Teste_trab
 
             try
             {
-                ProdutoVO produto = cbproduto.SelectedValue as ProdutoVO;
+                //cbproduto.SelectedValue = txtproduto.Text;
+                int idprod = Convert.ToInt32(cbproduto.SelectedValue);
+                ProdutoVO produto = p.Consulta(idprod) as ProdutoVO;
                 ItemVendaVO produtoPesquisado = null;
                 foreach (ItemVendaVO item in carrinho)
-                    if (item.Idproduto == produto.Id)
-                    {
-                        produtoPesquisado = item;
-                        break;
-                    }
+                if (item.Idproduto == produto.Id)
+                {
+                    produtoPesquisado = item;
+                    break;
+                }
 
 
                 if (produtoPesquisado != null)
@@ -59,7 +62,7 @@ namespace Teste_trab
                     ItemVendaVO item = new ItemVendaVO();
                     item.Idproduto = produto.Id;
                     item.Idvenda = idvenda;
-                    item.Quantidade = 1;
+                    item.Quantidade = Convert.ToInt32(txtquantidade.Text);
                     carrinho.Add(item);
                 }
 
@@ -73,19 +76,30 @@ namespace Teste_trab
 
         private void frVenda_Load(object sender, EventArgs e)
         {
+            txtdata.Text = DateTime.Now.ToString();
+            txtid.Text = VendaDAO.ProximoID().ToString();
+            int idvendaform = Convert.ToInt32(txtid.Text);
+            idvenda = idvendaform;
 
+            List<ProdutoVO> produtos = new List<ProdutoVO>();
+            produtos = p.ListarPorProduto("");
+          
+            cbproduto.DataSource = produtos;
+            cbproduto.DisplayMember = "Descricao";
+            cbproduto.ValueMember = "Id";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             try
             {
-                VendaVO compra = new VendaVO();
-                compra.Id = idvenda;
-                compra.Data = DateTime.Now;
-                compra.Clienteid = Convert.ToInt32(txtcliente.Text);
-                compra.ItensDoPedido = carrinho.ToList();
-                VendaDAO.Insere(compra);
+                VendaVO venda = new VendaVO();
+                venda.Id = idvenda;
+                venda.Data = Convert.ToDateTime(txtdata.Text);
+                venda.Clienteid = Convert.ToInt32(txtcliente.Text);
+                venda.ItensDoPedido = carrinho.ToList();
+                venda.Formapagamento = cbformapagamento.SelectedItem.ToString();
+                VendaDAO.Insere(venda);
             }
             catch (Exception erro)
             {

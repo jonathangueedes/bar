@@ -164,7 +164,7 @@ namespace Teste_trab
             {
                 PadraoVO obj = PreencheObj();
 
-                if (txtId.Enabled)
+                if (txtId.Enabled == false)
                     cadastroDAO.Inserir(obj);
                 else
                     cadastroDAO.Alterar(obj);

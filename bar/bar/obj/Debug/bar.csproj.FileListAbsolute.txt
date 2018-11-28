@@ -17,3 +17,4 @@ C:\Users\jonat\OneDrive\Área de Trabalho\bar\bar\bin\Debug\Teste trab.exe
 C:\Users\jonat\OneDrive\Área de Trabalho\bar\bar\bin\Debug\Teste trab.pdb
 C:\Users\jonat\OneDrive\Área de Trabalho\bar\bar\obj\Debug\Teste trab.exe
 C:\Users\jonat\OneDrive\Área de Trabalho\bar\bar\obj\Debug\Teste trab.pdb
+C:\Users\jonat\OneDrive\Área de Trabalho\bar\bar\obj\Debug\Teste_trab.PesquisaVenda.resources

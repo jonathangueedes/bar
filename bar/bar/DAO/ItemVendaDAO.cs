@@ -30,7 +30,7 @@ namespace Teste_trab.DAO
         }
         public static void InsereItemPedido(ItemVendaVO item)
         {
-            string sql = "sp_InsereItemVenda";
+            string sql = "Insert_ItensPedido";
             Metodos.ExecutaProcedure(sql, CriaParametros(item));
         }
 

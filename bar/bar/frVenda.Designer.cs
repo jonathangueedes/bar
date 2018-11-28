@@ -34,10 +34,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.txtid = new System.Windows.Forms.TextBox();
+            this.txtdata = new System.Windows.Forms.MaskedTextBox();
             this.txtcliente = new System.Windows.Forms.TextBox();
-            this.txtproduto = new System.Windows.Forms.TextBox();
             this.txtquantidade = new System.Windows.Forms.TextBox();
             this.cbformapagamento = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -67,7 +66,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(160, 13);
+            this.label3.Location = new System.Drawing.Point(162, 13);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(39, 13);
             this.label3.TabIndex = 2;
@@ -101,21 +100,21 @@
             this.label6.Text = "Forma de Pagamento";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // textBox1
+            // txtid
             // 
-            this.textBox1.Location = new System.Drawing.Point(16, 30);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(35, 20);
-            this.textBox1.TabIndex = 6;
+            this.txtid.Location = new System.Drawing.Point(16, 30);
+            this.txtid.Name = "txtid";
+            this.txtid.Size = new System.Drawing.Size(35, 20);
+            this.txtid.TabIndex = 6;
             // 
-            // maskedTextBox1
+            // txtdata
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(66, 29);
-            this.maskedTextBox1.Mask = "00/00/0000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(76, 20);
-            this.maskedTextBox1.TabIndex = 7;
-            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
+            this.txtdata.Location = new System.Drawing.Point(66, 29);
+            this.txtdata.Mask = "00/00/0000";
+            this.txtdata.Name = "txtdata";
+            this.txtdata.Size = new System.Drawing.Size(76, 20);
+            this.txtdata.TabIndex = 7;
+            this.txtdata.ValidatingType = typeof(System.DateTime);
             // 
             // txtcliente
             // 
@@ -123,13 +122,6 @@
             this.txtcliente.Name = "txtcliente";
             this.txtcliente.Size = new System.Drawing.Size(69, 20);
             this.txtcliente.TabIndex = 8;
-            // 
-            // txtproduto
-            // 
-            this.txtproduto.Location = new System.Drawing.Point(263, 30);
-            this.txtproduto.Name = "txtproduto";
-            this.txtproduto.Size = new System.Drawing.Size(68, 20);
-            this.txtproduto.TabIndex = 9;
             // 
             // txtquantidade
             // 
@@ -141,14 +133,17 @@
             // cbformapagamento
             // 
             this.cbformapagamento.FormattingEnabled = true;
+            this.cbformapagamento.Items.AddRange(new object[] {
+            "Débito",
+            "Credito"});
             this.cbformapagamento.Location = new System.Drawing.Point(421, 28);
             this.cbformapagamento.Name = "cbformapagamento";
-            this.cbformapagamento.Size = new System.Drawing.Size(121, 21);
+            this.cbformapagamento.Size = new System.Drawing.Size(55, 21);
             this.cbformapagamento.TabIndex = 11;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(66, 103);
+            this.button1.Location = new System.Drawing.Point(16, 103);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 39);
             this.button1.TabIndex = 12;
@@ -158,7 +153,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(172, 103);
+            this.button2.Location = new System.Drawing.Point(115, 103);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 39);
             this.button2.TabIndex = 13;
@@ -169,7 +164,7 @@
             // cbproduto
             // 
             this.cbproduto.FormattingEnabled = true;
-            this.cbproduto.Location = new System.Drawing.Point(263, 66);
+            this.cbproduto.Location = new System.Drawing.Point(263, 30);
             this.cbproduto.Name = "cbproduto";
             this.cbproduto.Size = new System.Drawing.Size(68, 21);
             this.cbproduto.TabIndex = 14;
@@ -184,10 +179,9 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cbformapagamento);
             this.Controls.Add(this.txtquantidade);
-            this.Controls.Add(this.txtproduto);
             this.Controls.Add(this.txtcliente);
-            this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtdata);
+            this.Controls.Add(this.txtid);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -210,10 +204,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.TextBox txtid;
+        private System.Windows.Forms.MaskedTextBox txtdata;
         private System.Windows.Forms.TextBox txtcliente;
-        private System.Windows.Forms.TextBox txtproduto;
         private System.Windows.Forms.TextBox txtquantidade;
         private System.Windows.Forms.ComboBox cbformapagamento;
         private System.Windows.Forms.Button button1;

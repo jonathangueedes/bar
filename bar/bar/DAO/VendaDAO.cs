@@ -22,7 +22,9 @@ namespace Teste_trab.DAO
             {
 
                 new SqlParameter("DataVenda", t.Data),
-                new SqlParameter("ClienteID", t.Clienteid)
+                new SqlParameter("ClienteID", t.Clienteid),
+                                new SqlParameter("FormadePagamento",t.Formapagamento)
+
 
 
             };
@@ -35,6 +37,7 @@ namespace Teste_trab.DAO
                 new SqlParameter("ID", t.Id),
                 new SqlParameter("DataVenda", t.Data),
                 new SqlParameter("ClienteID", t.Clienteid),
+                new SqlParameter("FormadePagamento",t.Formapagamento)
 
             };
 
@@ -43,7 +46,7 @@ namespace Teste_trab.DAO
 
         public static int ProximoID()
         {
-            string sql = "sp_RetornaIdPedido";
+            string sql = "Select_Proximo_ID_VENDA";
             using (SqlConnection cx = ConexaoBD.GetConexao())
             {
                 SqlCommand cmd = new SqlCommand(sql, cx);
@@ -58,7 +61,7 @@ namespace Teste_trab.DAO
 
             using (var transacao = new System.Transactions.TransactionScope()) // início da transação
             {
-                string sql = "SP_InserePedido ";
+                string sql = "Insert_Pedido";
 
 
                 Metodos.ExecutaProcedure(sql, CriaParametros(pedido));
@@ -82,13 +85,14 @@ namespace Teste_trab.DAO
             t.Id = Convert.ToInt32(dr["ID"]);
             t.Data = Convert.ToDateTime(dr["DataVenda"]);
             t.Clienteid = Convert.ToInt32(dr["ClienteID"]);
+            t.Formapagamento = (dr["FormadePagamento"]).ToString();
             return t;
         }
         public static PadraoVO Consulta(int id)
         {
             using (SqlConnection cx = ConexaoBD.GetConexao())
             {
-                string sql = "SP_ProcuraPedidoVenda";
+                string sql = "select_PedidoVenda";
                 SqlParameter[] parametros =
                 {
                     new SqlParameter("@id", id)
@@ -104,6 +108,26 @@ namespace Teste_trab.DAO
             }
         }
 
+        public static void ListaProdutosVenda(int venda)
+        {
+            using (SqlConnection cx = ConexaoBD.GetConexao())
+            {
+                string sql = "SelectMestre_detalhe";
+                SqlParameter[] parametros =
+                {
+                    new SqlParameter("@Venda", venda)
+                };
+
+                DataTable tabela = Metodos.ExecutaProcResultSet(sql, parametros);
+
+                //if (tabela.Rows.Count == 0)
+                //    return null;
+                //else
+                //    return MontaVO(tabela.Rows[0]);
+
+            }
+        }
+        
     }
 
 
