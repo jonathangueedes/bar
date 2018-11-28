@@ -73,7 +73,7 @@ namespace Teste_trab
 
             if (modo == EnumModoOperacao.Inclusao)
             {
-                //txtId.Enabled = true;
+                //txtId.Enabled = true; usando identity nao pode estar habilitado
                 LimpaCampos(this);
                 txtId.Focus();
             }
@@ -115,6 +115,7 @@ namespace Teste_trab
         private void btnAltera_Click(object sender, EventArgs e)
         {
             AlteraParaModo(EnumModoOperacao.Alteracao);
+            txtId.Enabled = true;
         }
 
         private void btnInclui_Click(object sender, EventArgs e)
@@ -144,7 +145,7 @@ namespace Teste_trab
                 return;
             }
 
-            if (!Metodos.Mensagem("Confirma?", TipoMensagemEnum.pergunta))
+            if (!Metodos.Mensagem("Tem Certeza que Deseja Excluir?", TipoMensagemEnum.pergunta))
                 return;
 
             try

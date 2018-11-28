@@ -173,6 +173,16 @@ namespace Teste_trab.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap delete_icon_png_18 {
+            get {
+                object obj = ResourceManager.GetObject("delete-icon-png-18", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap no_image_icon_13 {
             get {
                 object obj = ResourceManager.GetObject("no-image-icon-13", resourceCulture);

@@ -54,13 +54,13 @@ namespace Teste_trab
 
         protected override PadraoVO PreencheObj()
         {
-            ClienteVO t = new ClienteVO();
-            t.Id = Convert.ToInt32(txtId.Text);
-            t.Nome = txtNome.Text;
-            t.Celular = txtCelular.Text;
-            t.CPF = txtCPF.Text;
-            t.CidadeID = Convert.ToInt32(txtCidadeID.Text);
-            return t;
+            ClienteVO cliente = new ClienteVO();
+            cliente.Id = Convert.ToInt32(txtId.Text);
+            cliente.Nome = txtNome.Text;
+            cliente.Celular = txtCelular.Text;
+            cliente.CPF = txtCPF.Text;
+            cliente.CidadeID = Convert.ToInt32(txtCidadeID.Text);
+            return cliente;
         }
 
         private void btnPesquisa_Click(object sender, EventArgs e)
@@ -118,6 +118,11 @@ namespace Teste_trab
         private void btnProximo_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void txtNome_KeyDown(object sender, KeyEventArgs e)
+        {
+            
         }
     }
 }

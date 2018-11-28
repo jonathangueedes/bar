@@ -18,3 +18,24 @@ C:\Users\jonat\OneDrive\Área de Trabalho\bar\bar\bin\Debug\Teste trab.pdb
 C:\Users\jonat\OneDrive\Área de Trabalho\bar\bar\obj\Debug\Teste trab.exe
 C:\Users\jonat\OneDrive\Área de Trabalho\bar\bar\obj\Debug\Teste trab.pdb
 C:\Users\jonat\OneDrive\Área de Trabalho\bar\bar\obj\Debug\Teste_trab.PesquisaVenda.resources
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\bin\Debug\Teste trab.exe.config
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\bin\Debug\Teste trab.exe
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\bin\Debug\Teste trab.pdb
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\obj\Debug\bar.csprojAssemblyReference.cache
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\obj\Debug\Teste_trab.CadastroCliente.resources
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\obj\Debug\Teste_trab.CadastroFornecedor.resources
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\obj\Debug\Teste_trab.CadastroProduto.resources
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\obj\Debug\Teste_trab.frTelaPrincipal.resources
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\obj\Debug\Teste_trab.frVenda.resources
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\obj\Debug\Teste_trab.PesquisaCidade.resources
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\obj\Debug\Teste_trab.PesquisaCliente.resources
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\obj\Debug\Teste_trab.PesquisaFornecedor.resources
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\obj\Debug\Teste_trab.PesquisaProduto.resources
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\obj\Debug\Teste_trab.PesquisaVenda.resources
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\obj\Debug\Teste_trab.Properties.Resources.resources
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\obj\Debug\Teste_trab.frCadPadrao.resources
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\obj\Debug\bar.csproj.GenerateResource.cache
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\obj\Debug\bar.csproj.CoreCompileInputs.cache
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\obj\Debug\Teste trab.exe
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\obj\Debug\Teste trab.pdb
+C:\Users\jonat\OneDrive\Documentos\GitHub\bar\bar\bar\obj\Debug\Teste_trab.Manual.resources

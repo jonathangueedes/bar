@@ -129,7 +129,7 @@
             // 
             // btnExclui
             // 
-            this.btnExclui.BackgroundImage = global::Teste_trab.Properties.Resources.Crossout_failure;
+            this.btnExclui.BackgroundImage = global::Teste_trab.Properties.Resources.delete_icon_png_18;
             this.btnExclui.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnExclui.Location = new System.Drawing.Point(126, 35);
             this.btnExclui.Name = "btnExclui";

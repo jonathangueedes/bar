@@ -39,7 +39,7 @@ namespace Teste_trab
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            cbformapagamento.Enabled = false;
 
             try
             {
@@ -76,6 +76,7 @@ namespace Teste_trab
 
         private void frVenda_Load(object sender, EventArgs e)
         {
+            txtid.Enabled = false;
             txtdata.Text = DateTime.Now.ToString();
             txtid.Text = VendaDAO.ProximoID().ToString();
             int idvendaform = Convert.ToInt32(txtid.Text);
@@ -87,6 +88,8 @@ namespace Teste_trab
             cbproduto.DataSource = produtos;
             cbproduto.DisplayMember = "Descricao";
             cbproduto.ValueMember = "Id";
+
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -105,6 +108,45 @@ namespace Teste_trab
             {
                 MessageBox.Show(erro.Message);
             }
+        }
+
+        private void btn_pesquisa(object sender, KeyEventArgs e)
+        {
+           
+        }
+
+
+
+        private void txtcliente_TextChanged(object sender, EventArgs e)
+        {
+
+
+            
+        }
+
+        private void frVenda_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            
+        }
+
+        private void frVenda_KeyDown(object sender, KeyEventArgs e)
+        {
+            
+        }
+
+        private void txtcliente_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F8)
+            {
+                var frm = new PesquisaCliente();
+                frm.ShowDialog();
+                txtcliente.Text = frm.IdSelecionado.ToString();
+            }
+        }
+
+        private void btnpesquisa_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

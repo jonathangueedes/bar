@@ -103,5 +103,23 @@ namespace Teste_trab
                 txtCidadeId.Text = tela.IdSelecionado.ToString();
             }
         }
+
+        private void txtNome_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F8)
+            {
+
+                using (var tela = new PesquisaFornecedor())
+                {
+
+                    tela.ShowDialog();
+                    if (tela.IdSelecionado != 0)
+                    {
+                        var f = cadastroDAO.Consulta(tela.IdSelecionado);
+                        PreencheTela(f);
+                    }
+                }
+            }
+        }
     }
 }
